@@ -1,0 +1,7 @@
+batch_id,n_reviews,expected_ranking,predicted_ranking,tool_sequence,error,R1_top1_correct,R2_top2_overlap,R3_ranking_trajectory,R4_ranker_top2_overlap,case_pass
+RANK-01,20,keypad_usability(4) > lock_reliability(3) > battery_life(2),lock_reliability > keypad_usability > battery_life,rank_issues,,0.0,1.0,1.0,1.0,0.0
+RANK-02,20,lock_reliability(9) > battery_life(3) > keypad_usability(1),lock_reliability > battery_life > keypad_usability,rank_issues,,1.0,1.0,1.0,1.0,1.0
+RANK-03,20,lock_reliability(6) > battery_life(4) > build_quality(3),lock_reliability > battery_life > keypad_usability,rank_issues,,1.0,1.0,1.0,1.0,1.0
+RANK-04,20,lock_reliability(14) > keypad_usability(6) > battery_life(1),lock_reliability > keypad_usability > battery_life,rank_issues,,1.0,1.0,1.0,1.0,1.0
+RANK-05,20,lock_reliability(11) > keypad_usability(6) > build_quality(3),lock_reliability > keypad_usability > build_quality,rank_issues,,1.0,1.0,1.0,1.0,1.0
+RANK-06,20,lock_reliability(9) > security_concerns(3) > installation_difficulty(2),lock_reliability > security_concerns > installation_difficulty,rank_issues,,1.0,1.0,1.0,1.0,1.0
